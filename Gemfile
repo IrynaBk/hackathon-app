@@ -65,3 +65,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "geocoder", "~> 1.8"

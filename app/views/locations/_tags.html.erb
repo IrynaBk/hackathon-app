@@ -1,0 +1,9 @@
+<% if tags.present? %>
+  <ul>
+    <% tags.each do |key, value| %>
+      <li><strong><%= key %>:</strong> <%= value %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No tags available.</p>
+<% end %>
