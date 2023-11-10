@@ -31,50 +31,14 @@
     <%= form.text_field :longitude %>
   </div>
 
-  <div class="tag-fields">
-  <%= form.fields_for :tags, OpenStruct.new(name: '', value: '') do |tag_form| %>
-    <div>
-      <%= tag_form.label :name, style: "display: block" %>
-      <%= tag_form.text_field :name %>
-    </div>
+  <div>
+    <%= form.label :tags, style: "display: block" %>
+    <%= form.text_field :tags %>
+  </div>
 
-    <div>
-      <%= tag_form.label :value, style: "display: block" %>
-      <%= tag_form.text_field :value %>
-    </div>
-  <% end %>
-</div>
-
-  <%= link_to 'Remove Tag', '#', class: 'remove-tag-fields' %>
-</div>
-
-  <%= link_to 'Add Tag', '#', id: 'add-tag-fields' %>
+ 
 
   <div>
     <%= form.submit %>
   </div>
 <% end %>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-  $('#add-tag-fields').click(function() {
-    var tagFields = $('.tag-fields:first').clone();
-    tagFields.find('input').val('');
-    
-    // Change the IDs to make them unique
-    tagFields.find('input').each(function() {
-      var currentId = $(this).attr('id');
-      var newId = currentId + '_clone';
-      $(this).attr('id', newId);
-    });
-
-    $('#tags-fields').append(tagFields);
-    return false;
-  });
-  
-  // Remove tag fields
-  $('#tags-fields').on('click', '.remove-tag-fields', function() {
-    $(this).closest('.tag-fields').remove();
-    return false;
-  });
-});
-</script>

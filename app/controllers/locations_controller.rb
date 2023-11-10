@@ -22,6 +22,7 @@ class LocationsController < ApplicationController
   # POST /locations or /locations.json
   def create
     @location = Location.new(location_params)
+    @location.tags = JSON.parse(params[:location][:tags]) if params[:location][:tags]
 
     respond_to do |format|
       if @location.save
@@ -36,6 +37,7 @@ class LocationsController < ApplicationController
 
   # PATCH/PUT /locations/1 or /locations/1.json
   def update
+    @location.tags = JSON.parse(params[:location][:tags]) if params[:location][:tags]
     respond_to do |format|
       if @location.update(location_params)
         format.html { redirect_to location_url(@location), notice: "Location was successfully updated." }
@@ -65,6 +67,6 @@ class LocationsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def location_params
-      params.require(:location).permit(:name, :address, :latitude, :longitude, tags: {})
+      params.require(:location).permit(:name, :address, :latitude, :longitude)
     end
 end
