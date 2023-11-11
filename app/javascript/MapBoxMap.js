@@ -1,7 +1,6 @@
 // MAPBOX ACCEPTS COORDINATES IN FORMAT [LONGITUDE, LATITUDE]
-require('dotenv').config();
 
-const MAPBOX_TOKEN = process.env.API_KEY;
+// const MAPBOX_TOKEN = process.env.API_KEY;
 if (!MAPBOX_TOKEN) alert('No token provided')
 
 class MapBoxMap {

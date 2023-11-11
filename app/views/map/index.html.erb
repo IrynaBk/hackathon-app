@@ -1,5 +1,6 @@
 <script>
   var locations = <%= raw @locations.to_json %>;
+  const MAPBOX_TOKEN = "<%= ENV['API_KEY'] %>";
 </script>
 
 <div id='map'></div>
