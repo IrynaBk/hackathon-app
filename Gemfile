@@ -73,4 +73,4 @@ gem "activeadmin", "~> 3.1"
 
 gem 'devise'
 
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv-rails'
