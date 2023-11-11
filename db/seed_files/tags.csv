@@ -1,0 +1,16 @@
+description,name
+Назва,address
+Категорія,category
+Коментар,comment
+Широта,latitude
+Довгота,longitude
+Пандус,ramp
+Понижений бордюр,lowered_curb
+Тактильне маркування,tactile_marking
+Світлофор зі звуковим сигналом,traffic_light_sound
+Вбиральня для людей з інвалідністю,accessible_restroom
+Вхід в рівень з тротуаром,entrance level_sidewalk
+Ліфт,elevator
+Підйомник,hoist
+Простір для сповинання дітей,swaddling_room
+Парковка для людей з інвалідністю,accessible_parking
