@@ -5,8 +5,6 @@ import Route from './Route'
 const MODE = 'walking'
 
 // вул. Левка Лук’яненка, 3, 3-В
-// const testCenterPoint = locations[0]//.find(location => location.id)
-
 const CENTER = [
     30.48825808474481,
     50.50826373625383

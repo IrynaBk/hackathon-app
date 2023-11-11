@@ -1,6 +1,6 @@
 ActiveAdmin.register Location do
   # filter :associated_tags_id, collection: proc { Tag.all }, as: :select
-  filter :tags_name, :as => :select, :collection => Tag.all.collect {|o| [o.name, o.name]}
+  filter :tags_name, as: :select, collection: -> { Tag.all.map { |tag| [tag.name, tag.name] } }
   
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters

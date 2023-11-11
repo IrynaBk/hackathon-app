@@ -84,3 +84,4 @@ production:
   database: tech_hackathon_production
   username: tech_hackathon
   password: <%= ENV["TECH_HACKATHON_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
