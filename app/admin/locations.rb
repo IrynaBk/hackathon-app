@@ -9,7 +9,44 @@ ActiveAdmin.register Location do
   #
   permit_params :name, :address, :latitude, :longitude, tag_ids: []
   #
-  # or
+  form do |f|
+    f.inputs 'Location Details' do
+      f.input :name
+      f.input :address
+      f.input :latitude
+      f.input :longitude
+      f.input :tags, as: :check_boxes 
+    end
+    f.actions
+  end
+
+  index do
+    selectable_column
+    id_column
+    column :name
+    column :address
+    column :latitude
+    column :longitude
+    column :tags do |location|
+      location.tags.map(&:name).join(', ')
+    end
+    actions
+  end
+
+  show do
+    attributes_table do
+      row :id
+      row :name
+      row :address
+      row :latitude
+      row :longitude
+      row :tags do |location|
+        location.tags.map(&:name).join(', ')
+      end
+    end
+    active_admin_comments
+  end
+
   #
   # permit_params do
   #   permitted = [:name, :address, :latitude, :longitude, :tags]
