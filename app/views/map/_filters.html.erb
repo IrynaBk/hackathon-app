@@ -1,0 +1,21 @@
+<%= form_tag('/', method: :get, id: 'filter-form') do%>
+  <% @tags.each do |tag| %>
+    <label style="display:flex;">
+      <%= tag.name %>
+      <%= check_box_tag tag.id, '1', params['tags'].include?(tag.id.to_s) %>
+    </label>
+  <% end %>
+
+  <%= submit_tag 'Застосувати' %>
+<% end %>
+
+<script>
+        document.getElementById("filter-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const checkboxes = Array.from(document.querySelectorAll('#filter-form input[type="checkbox"]'));
+
+            const params = checkboxes.filter(cb => cb.checked).map(cb => `tags[]=${cb.id}`).join('&')
+            window.location.href = `/?${params}`;
+        })
+</script>
