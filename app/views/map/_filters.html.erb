@@ -2,7 +2,7 @@
   <% @tags.each do |tag| %>
     <label style="display:flex;">
       <%= tag.name %>
-      <%= check_box_tag tag.id, '1', params['tags'].include?(tag.id.to_s) %>
+      <%= check_box_tag tag.id, '1', params.fetch('tags', []).include?(tag.id.to_s) %>
     </label>
   <% end %>
 
