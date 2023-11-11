@@ -1,3 +1,7 @@
+<script>
+  var locations = <%= raw @locations.to_json %>;
+</script>
+
 <div id='map'></div>
 <div id="instructions">
 <%= render :partial => 'locations/filters' %>
