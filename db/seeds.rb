@@ -10,7 +10,7 @@ def create_tags(row)
 end
 
 
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
 
 csv_text = File.read(Rails.root.join('db', 'seed_files', 'obolon_district.csv'))
 csv = CSV.parse(csv_text, headers: true, encoding: 'UTF-8')
