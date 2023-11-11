@@ -1,0 +1,18 @@
+databases:
+  - name: tech_hackathon
+    databaseName: tech_hackathon
+    user: tech_hackathon
+
+services:
+  - type: web
+    name: tech_hackathon
+    runtime: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: tech_hackathon
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
