@@ -1,0 +1,79 @@
+address,category,latitude,longitude,ramp,lowered_curb,tactile_marking,traffic_light_sound,accessible_restroom,entrance level_sidewalk,elevator,hoist,swaddling_room,accessible_parking
+вул. Вишгородська – вул. Білицька,Інфраструктура,50.497101301893295,30.45621545006428,False,False,False,True,False,False,False,False,False,False
+вул. Вишгородська – вул. Мостицька,Інфраструктура,50.500748502241386,30.451769305569197,False,False,False,True,False,False,False,False,False,False
+вул. Вишгородська – вул. Пріорська,Інфраструктура,50.50849189058592,30.450778033928245,False,False,False,True,False,False,False,False,False,False
+вул. Вишгородська – просп. Правди,Інфраструктура,50.50575483222442,30.45099556660163,False,False,False,True,False,False,False,False,False,False
+пл. Тараса Шевченка – просп. Литовський,Інфраструктура,50.52113848125817,30.4495623067935,False,False,False,True,False,False,False,False,False,False
+просп. Оболонський – вул. Левка Лук’яненка,Інфраструктура,50.51273610273869,30.499125312360267,False,False,False,True,False,False,False,False,False,False
+"вул. Героїв Дніпра, 6",Інфраструктура,50.51741352701122,30.48689266236065,False,False,False,True,False,False,False,False,False,False
+"вул. Героїв Дніпра, 40",Інфраструктура,50.52257248232347,30.50870110535349,False,False,False,True,False,False,False,False,False,False
+"вул. Героїв Дніпра, 45",Інфраструктура,50.52259985860061,30.50464711375428,False,False,False,True,False,False,False,False,False,False
+"вул. Олександра Архипенка, 4 ",Інфраструктура,50.49593439828661,30.510663864909034,False,False,False,True,False,False,False,False,False,False
+просп. Володимира Івасюка – вул. Олександра Архипенка,Інфраструктура,50.4963165358044,30.51772340322877,False,False,False,True,False,False,False,False,False,False
+"просп. Володимира Івасюка, 4",Інфраструктура,50.492169471524726,30.522602791011604,False,False,False,True,False,False,False,False,False,False
+просп. Володимира Івасюка – інститут Гідробіології,Інфраструктура,50.502386014556734,30.51297023109613,False,False,False,True,False,False,False,False,False,False
+просп. Володимира Івасюка – вул. Прирічна,Інфраструктура,50.51367886840122,30.507427222141725,False,False,False,True,False,False,False,False,False,False
+"просп. Володимира Івасюка, 51",Інфраструктура,50.52038852413365,30.513669053792057,False,False,False,True,False,False,False,False,False,False
+"просп. Володимира Івасюка, 17-А",Інфраструктура,50.50337695379566,30.509391926513903,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв полку «Азов», 32, 32-А",Інфраструктура,50.50239446358686,30.50613891600732,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв полку «Азов», 28, 30",Інфраструктура,50.50172050670293,30.505088159401687,False,True,False,False,False,False,False,False,False,False
+"просп. Володимира Івасюка, 9, 9-А",Інфраструктура,50.499110918576,30.51333886893027,False,True,False,False,False,False,False,False,False,False
+"вул. Олександра Архипенка, 3-А",Інфраструктура,50.49755239534026,30.512200382395694,False,True,False,False,False,False,False,False,False,False
+"вул. Йорданська, 1-А",Інфраструктура,50.49194669717922,30.50641525675692,False,True,False,False,False,False,False,False,False,False
+"просп. Володимира Івасюка, 19, 19-А",Інфраструктура,50.50494467698844,30.509966751211056,False,True,False,False,False,False,False,False,False,False
+"вул. Йорданська, 9-А, 11-ЖБК",Інфраструктура,50.49501846510474,30.506872448840625,False,True,False,False,False,False,False,False,False,False
+"просп. Володимира Івасюка, 1",Інфраструктура,50.48910129900009,30.524655211845328,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв полку «Азов», 25",Інфраструктура,50.50237774998676,30.504450197800487,False,True,False,False,False,False,False,False,False,False
+"просп. Володимира Івасюка, 37",Інфраструктура,50.51404461529017,30.507346707944947,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв Дніпра, 34-Б",Інфраструктура,50.52164330558976,30.504215919087017,False,True,False,False,False,False,False,False,False,False
+"пл. Оболонська, 3",Інфраструктура,50.50218856157485,30.501378264002103,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв полку «Азов», 3",Інфраструктура,50.50600651458109,30.491541807791,False,True,False,False,False,False,False,False,False,False
+"вул. Левка Лук’яненка, 3, 3-В",Інфраструктура,50.50826373625383,30.48825808474481,False,True,False,False,False,False,False,False,False,False
+"вул. Левка Лук’яненка, 5",Інфраструктура,50.50870776966397,30.48883651215127,False,True,False,False,False,False,False,False,False,False
+"вул. Левка Лук’яненка, 7, 7-А",Інфраструктура,50.50943396240241,30.48945034622507,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв полку «Азов», 3-Б",Інфраструктура,50.50697831186623,30.49379466669424,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв полку «Азов», 13",Інфраструктура,50.50220292387512,30.49511712928364,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв полку «Азов», 15/3",Інфраструктура,50.502367837044176,30.4969243395016,False,True,False,False,False,False,False,False,False,False
+"вул. Левка Лук’яненка, 1",Інфраструктура,50.50882894584485,30.4860768146208,False,True,False,False,False,False,False,False,False,False
+"просп. Оболонський, 15, 15-А, 15-Б",Інфраструктура,50.51001510275458,30.49728460541827,False,True,False,False,False,False,False,False,False,False
+"вул. Левка Лук’яненка, 6-12",Інфраструктура,50.51109541818349,30.49395599764796,False,True,False,False,False,False,False,False,False,False
+"просп. Оболонський, 23-А",Інфраструктура,50.514776494248046,30.49576967416444,False,True,False,False,False,False,False,False,False,False
+"просп. Оболонський, 23-Б",Інфраструктура,50.51480872709956,30.49426046123183,False,True,False,False,False,False,False,False,False,False
+"просп. Оболонський, 33-А",Інфраструктура,50.51808379308805,30.496610470210967,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв Дніпра, 9",Інфраструктура,50.51877260087844,30.489158737803624,False,True,False,False,False,False,False,False,False,False
+"просп. Оболонський, 37-В",Інфраструктура,50.51942812483894,30.49642148871916,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв Дніпра, 19",Інфраструктура,50.52107310102529,30.490752422583142,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв Дніпра, 22-А",Інфраструктура,50.52150037868548,30.49565401245373,False,True,False,False,False,False,False,False,False,False
+"просп. Володимира Івасюка, 61-63",Інфраструктура,50.52512765094728,30.514804638506657,False,True,False,False,False,False,False,False,False,False
+"вул. Північна, 48-А",Інфраструктура,50.526852538860446,30.51236963344115,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв Дніпра, 59",Інфраструктура,50.52334563884654,30.50860275641675,False,True,False,False,False,False,False,False,False,False
+"вул. Героїв Дніпра, 61",Інфраструктура,50.52414508685901,30.508742541887877,False,True,False,False,False,False,False,False,False,False
+"вул. Північна, 14",Інфраструктура,50.525258785619066,30.50647553028507,False,True,False,False,False,False,False,False,False,False
+"вул. Північна, 12",Інфраструктура,50.52610623552741,30.505990709129705,False,True,False,False,False,False,False,False,False,False
+"просп. Володимира Івасюка, 54-А",Інфраструктура,50.5241364421945,30.517664595740275,False,True,False,False,False,False,False,False,False,False
+"просп. Володимира Івасюка, 44",Інфраструктура,50.52015212375162,30.51570419610502,False,True,False,False,False,False,False,False,False,False
+"вул. Ярослава Івашкевича, 8, 8-А",Інфраструктура,50.50465202457627,30.454320657096616,False,True,False,False,False,False,False,False,False,False
+"вул. Автозаводська, 25, 27",Інфраструктура,50.50680804628986,30.45739791686315,False,True,False,False,False,False,False,False,False,False
+"вул. Ярослава Івашкевича, 14",Інфраструктура,50.50434874603582,30.455876827685955,False,True,False,False,False,False,False,False,False,False
+"вул. Мукачівська, 9",Інфраструктура,50.50436118895946,30.45499072204262,False,True,False,False,False,False,False,False,False,False
+"вул. Полярна, 6, 6-Б",Інфраструктура,50.518109235324594,30.46064475290171,False,True,False,False,False,False,False,False,False,False
+"вул. Бережанська, 16-А",Інфраструктура,50.51693646522767,30.460690863991932,False,True,False,False,False,False,False,False,False,False
+"вул. Академіка Навашина, 13",Інфраструктура,50.51866247668104,30.452675393617675,False,True,False,False,False,False,False,False,False,False
+"вул. Вишгородська, 44-А",Інфраструктура,50.513590140487416,30.450938337959844,False,True,False,False,False,False,False,False,False,False
+"вул. Бережанська, 10, 12",Інфраструктура,50.51476764514309,30.46095125085546,False,True,False,False,False,False,False,False,False,False
+"вул. Полярна, 5",Інфраструктура,50.52114168823096,30.454156260743385,False,True,False,False,False,False,False,False,False,False
+"вул. Рокоссовського, 7",Інфраструктура,50.52472665562444,30.45968100503835,False,True,False,False,False,False,False,False,False,False
+"просп. Литовський, 6-А",Інфраструктура,50.52341807923507,30.45419765729557,False,True,False,False,False,False,False,False,False,False
+"вул. Рокоссовського, 8-А",Інфраструктура,50.52260996430154,30.460339284965432,False,True,False,False,False,False,False,False,False,False
+"вул. Квітки Цісик, 51-А",Інфраструктура,50.546613896260055,30.34753327517725,False,True,False,False,False,False,False,False,False,False
+"вул. Квітки Цісик, 23",Інфраструктура,50.53463420632141,30.36326388136265,False,True,False,False,False,False,False,False,False,False
+"вул. Петра Калнишевського, 4-А",Інфраструктура,50.52608828618516,30.468185857492585,False,True,False,False,False,False,False,False,False,False
+,"Парки, сквери",50.535008773163945,30.354404811633096,True,False,False,False,False,False,False,False,False,False
+"Сквер на вул. Прирічна, 31","Парки, сквери",50.52580461602814,30.519743979088727,True,False,False,False,False,False,False,False,False,False
+"Сквер на просп. Володимира Івасюка, 51 ","Парки, сквери",50.52048369219863,30.51312099707494,True,False,False,False,False,False,False,False,False,False
+"Сквер на просп. Володимира Івасюка, 49 - 53 – вул. Героїв Дніпра, 62-62Б","Парки, сквери",50.52105952721359,30.511667382398446,True,False,False,False,False,False,False,False,False,False
+"Сквер на вул. Вишгородська, 10-12","Парки, сквери",50.500690215891126,30.45219934447881,True,False,False,False,False,False,False,False,False,False
+"Сквер на просп. Маршала Рокоссовського, 2","Парки, сквери",50.52015301449212,30.458474574329003,True,False,False,False,False,False,False,False,False,False
+"Сквер на просп. Литовському, 4","Парки, сквери",50.52240015959058,30.45277295876472,True,False,False,False,False,False,False,False,False,False
+"Сквер на вул. Вишгородська, 6-10","Парки, сквери",50.5006303072377,30.452797558926665,True,False,False,False,False,False,False,False,False,False
+"Інклюзивний спортмайданчик у парку ""Наталка""",Спортивні майданчики,50.49677906352797,30.524899155921556,False,False,False,False,False,False,False,False,False,False
