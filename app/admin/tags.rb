@@ -1,6 +1,6 @@
 ActiveAdmin.register Tag do
   # filter :associated_locations_id, collection: proc { Location.all }, as: :select
-  filter :locations_name, :as => :select, :collection => Location.all.collect {|o| [o.name, o.name]}
+  filter :locations_name, :as => :select, :collection -> { Location.all.collect {|o| [o.name, o.name]} }
 
   
   # See permitted parameters documentation:
