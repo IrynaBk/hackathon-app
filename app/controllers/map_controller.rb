@@ -1,3 +1,5 @@
 class MapController < ApplicationController
-  def index; end
+  def index
+    @locations = Location.all
+  end
 end

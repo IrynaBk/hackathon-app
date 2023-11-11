@@ -35,6 +35,22 @@ class MapBoxMap {
                 }
             });
         }
+
+        // popup
+        this.mapObject.on('click', point.id, () => {
+            new mapboxgl.Popup()
+                .setLngLat([point.longitude, point.latitude])
+                .setHTML(point.composePopupHTML())
+                .addTo(this.mapObject);
+        });
+
+        this.mapObject.on('mouseenter', point.id, () => {
+            this.mapObject.getCanvas().style.cursor = 'pointer';
+        });
+
+        this.mapObject.on('mouseleave', point.id, () => {
+            this.mapObject.getCanvas().style.cursor = '';
+        });
     }
 
     drawRoute(route) {

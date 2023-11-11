@@ -1,10 +1,19 @@
 class Point {
-    constructor(id, longitude, latitude, color, size) {
-        this.id = id;
+    constructor(id, address, longitude, latitude, color, size) {
+        this.id = id.toString();
+        this.address = address;
         this.longitude = longitude;
         this.latitude = latitude;
         this.color = color;
         this.size = size;
+    }
+
+    composePopupHTML() {
+        return (
+            `<div>
+                <h3>${this.address}</h3>
+            </div>`
+        )
     }
 
     generateData() {
