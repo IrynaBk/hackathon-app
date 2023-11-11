@@ -32,8 +32,8 @@
   </div>
 
   <div>
-    <%= form.label :tags, style: "display: block" %>
-    <%= form.text_field :tags %>
+    <%= form.label :tag_ids, 'Tags' %>
+    <%= form.collection_check_boxes(:tag_ids, Tag.all, :id, :name) %>
   </div>
 
  

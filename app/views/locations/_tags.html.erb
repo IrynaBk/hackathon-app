@@ -1,7 +1,7 @@
 <% if tags.present? %>
   <ul>
-    <% tags.each do |key, value| %>
-      <li><strong><%= key %>:</strong> <%= value %></li>
+    <% tags.each do |tag| %>
+      <li><%= tag.name %></li>
     <% end %>
   </ul>
 <% else %>
