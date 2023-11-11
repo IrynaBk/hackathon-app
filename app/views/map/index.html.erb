@@ -1,9 +1,12 @@
 <script>
   var locations = <%= raw @locations.to_json %>;
+  var tags = <%= raw @tags.to_json %>;
+  
   const MAPBOX_TOKEN = "<%= ENV['API_KEY'] %>";
+
 </script>
 
 <div id='map'></div>
 <div id="instructions">
-<%= render :partial => 'locations/filters' %>
+<%= render :partial => 'filters' %>
 </div>

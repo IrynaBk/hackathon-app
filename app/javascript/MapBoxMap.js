@@ -18,6 +18,12 @@ class MapBoxMap {
 
     drawPoint(point) {
         const pointData = point.generateData();
+        try {
+            this.mapObject.removeSource(point.id)
+
+        }
+        catch {
+        }
 
         if (this.mapObject.getLayer(point.id)) {
             this.mapObject.getSource(point.id).setData(pointData);
@@ -37,24 +43,30 @@ class MapBoxMap {
         }
 
         // popup
-        this.mapObject.on('click', point.id, () => {
-            new mapboxgl.Popup()
+        point.popup = null;
+        this.mapObject.on('mouseenter', point.id, () => {
+            this.mapObject.getCanvas().style.cursor = 'pointer';
+
+            point.popup = new mapboxgl.Popup()
                 .setLngLat([point.longitude, point.latitude])
                 .setHTML(point.composePopupHTML())
                 .addTo(this.mapObject);
         });
 
-        this.mapObject.on('mouseenter', point.id, () => {
-            this.mapObject.getCanvas().style.cursor = 'pointer';
-        });
-
         this.mapObject.on('mouseleave', point.id, () => {
             this.mapObject.getCanvas().style.cursor = '';
+            point.popup.remove();
         });
     }
 
     drawRoute(route) {
         const routeData = route.generateData();
+        try {
+            this.mapObject.removeSource(route.id)
+
+        }
+        catch {
+        }
 
         if (this.mapObject.getSource(route.id)) {
             this.mapObject.getSource(route.id).setData(routeData);
